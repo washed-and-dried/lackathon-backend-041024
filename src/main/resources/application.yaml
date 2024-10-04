@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: LackATree
+  datasource:
+    url: jdbc:mysql://localhost:3306/lackAtree
+    username: root
+    password: ""
+  jpa:
+    generate-ddl: true
+    hibernate.ddl-auto: update
+
+server:
+  port: 4000
